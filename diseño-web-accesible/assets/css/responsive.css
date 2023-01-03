@@ -1,0 +1,151 @@
+/*TODO: REVISAR PÁGINA SERVICIOS @MEDIA 600 O MENOS*/
+@media (max-width: 1400px) {
+    h3 {
+        font-size: 2.5em;
+        width: 80%;
+    }
+    #form-contacto {
+        width: 80%;
+    }
+    #form-contacto input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    #consulta {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .flex-content-izq{
+        border-right: none;
+    }
+    #main article img {
+        width: 415px;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 1062px){
+    h2 {
+        margin: -5px 0px 20px 0px;
+    }
+    #footer {
+        gap: 0px;
+    }
+    #copy-privacidad {
+        grid-column: 1 / span 4;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* ················ TABLET ················*/
+
+@media (max-width: 900px){
+    #tel-idioma {
+        display: none;
+    }
+    #main article {
+        margin-top: 20px;
+    }
+    .column {
+        flex-flow: column !important;
+    }
+    .flex {
+        width: 100%;
+        flex-flow: column-reverse;
+        margin-bottom: 30px;
+    }
+    .flex-content-izq {
+        width: 100%;
+    }
+    #main article img {
+        width: 90%;
+        transition: all 300ms;
+    }
+    #main article img:hover {
+        cursor: pointer;
+        width: 91.5%;
+    }
+    .flex-content-der {
+        width: 100%;
+    }
+    .flex .btn {
+        display: none;
+    }
+    .flex h3 {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 3.2em;
+    }
+    #contacto-whatsapp {
+        display: none;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+    #footer > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer > div iframe {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    #footer > div ul {
+        text-align: center;
+        margin-left: -40px;
+    }
+    #footer > div ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #copy-privacidad {
+        margin-top: 30px;
+    }
+
+    #footer > div > h4 {
+        font-size: 2.7em;
+    }
+
+}
+
+@media (max-width: 608px) {
+    h2 {
+        font-size: 2.8em;
+    }
+    #menu #logo h1 {
+        display: none;
+    }
+    #navegacion {
+        margin-left: -40px;
+    }
+    #footer>div ul li {
+        display: block;
+        margin-left: -20px;
+    }
+}
+@media (max-width: 451px){
+    .overflow-x {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+@media (max-width: 382px){
+    #navegacion li {
+        margin: 10px 0px 10px 15px;
+    }
+    h2 {
+        font-size: 2.2em;
+    }
+    .flex h3 {
+        font-size: 1.6em;
+    }
+}

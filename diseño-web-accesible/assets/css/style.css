@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../webfonts/FredokaOne-Regular.ttf');
+}
+/* GENERAL */
+* {
+    margin: 0 auto;
+}
+
+.alert-red {
+    color: red;
+}
+
+svg {
+    width: 25px;
+    vertical-align: middle;
+    padding-right: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #109E92;
+}
+
+h2 a {
+    color: white;
+}
+
+h2 {
+    font-family: 'Graduate';
+    font-size: 4em;
+    background-color: #FFB645;
+    border-bottom: 15px dashed white;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+h3 {
+    font-family: 'Graduate';
+    font-size: 3em;
+}
+
+/* MENÚ */
+#menu {
+    padding-top: 10px;
+    height: 50px;
+    background: white;
+    color: black;
+    position: fixed;
+    width: 100%;
+    background: #33364D;
+    color: white;
+    font-family: 'Fredoka One';
+    box-shadow: 0px 2px 3px grey; /* <--------------- SOMBRA DEL MENU ACT 5.1 */
+}
+
+#menu a {
+    color: white;
+}
+
+#menu #logo {
+    display: inline-block;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#logo img:hover {
+    transition: all 300ms;/*            <------------------ ACTIVIDAD 8.1*/
+    transform: scale(1.1);/*            <------------------ ACTIVIDAD 9.1*/
+}
+
+span.verde {
+    color: #109E92;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 50px;
+}
+
+#navegacion {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: 50px;
+    line-height: 30px;
+    list-style: none;
+}
+
+#navegacion li {
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+
+#navegacion li a {
+    padding-bottom: 9px;
+}
+
+#navegacion li a:hover{
+    color: #109E92;
+    border-bottom: 7px solid #109E92;
+}
+
+#tel-idioma {
+    float: right;
+    margin-top: 10px;
+    width: auto;
+    margin-right: 30px;
+}
+
+#tel-idioma img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#tel-idioma a:hover{
+    color: #109E92;
+}
+
+#tel-idioma ul {
+    display: inline-block;
+    list-style: none;
+}
+
+#tel-idioma ul li {
+    padding-bottom: 13px;
+}
+
+#tel-idioma ul li:hover{
+    color: #109E92;
+    border-bottom: 7px solid #109E92;
+}
+/* CABECERA */
+
+#header {
+    width: 100%;
+    max-height: 503.6px;
+}
+#header img {
+    width: 100%;
+    max-height: 503.6px;
+}
+
+/* FOOTER */
+
+#footer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #33364D;
+    font-family: 'Fredoka One';
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: #109E92;
+}
+
+.overflow-x {
+    width: 100%;
+}
+
+img:not([alt]) {                        /* <---------------- ACTIVIDAD 7.1 */
+    border: 3px solid red;
+}
+
+#footer h4 {
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    margin: 20px 0px 20px 0px;
+}
+
+#footer img {
+    vertical-align: middle;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li {
+    margin: 20px 0px 20px 0px;
+}
+
+#copy-privacidad {
+    grid-column-end: 3;
+    margin-bottom: 15px;
+    font-size: .8em;
+}
+
+/* CONTENIDO */
+
+#main {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;/*                    <--------------- ACTIVIDAD 11.1*/
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#main article {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#main article img {
+    border-radius: 20px;
+    width: 500px;
+}
+
+#main article:last-child {
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.flex-content-izq{
+    width: 50%;
+    text-align: center;
+    border-right: 1px dotted #33364D;
+}
+
+.flex-content-der {
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    transition: all 300ms; /*           <------------------ ACTIVIDAD 8.1*/
+    display: block;
+    width: 50%;
+    background-color: #FFA51A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 80px;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+
+.btn {
+    display: block;
+    width: 50%;
+    background-color: #FFA51A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 80px;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #FFB645;
+}
+
+/* FORM-CONTACTO */
+
+#form-contacto {
+    width: 50%;
+    margin: 40px auto 40px auto;
+}
+
+#form-contacto label {
+    display: block;
+}
+
+#form-contacto input[type="text"], input[type="email"], input[type="number"], #consulta {
+    padding: 12px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+
+#form-contacto #consulta {
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* SERVICIOS */
+
+table {
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td, th {
+    padding: 30px;
+    border-bottom: 1.5px dotted #109E92;
+}
+
+table tr:first-child {
+    background-color: #53C1B9 !important;
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: #c4f7f4;
+}
+
+table tr:nth-child(even){
+    background-color: #d7fffc;
+}
+
+caption {
+    margin: 20px;
+    caption-side: bottom;
+}
+
+/* ICONO FIJADO */
+
+#contacto-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#contacto-whatsapp svg {
+    width: 40px;
+}
+
