@@ -32,7 +32,7 @@ h2 {
     font-size: 4em;
     background-color: #FFB645;
     border-bottom: 15px dashed white;
-    color: white;
+    color: black;
     padding: 20px 0px 20px 0px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -246,7 +246,7 @@ img:not([alt]) {                        /* <---------------- ACTIVIDAD 7.1 */
     display: block;
     width: 50%;
     background-color: #FFA51A;
-    color: white;
+    color: black;
     font-weight: bold;
     border: none;
     border-radius: 20px;
@@ -259,7 +259,7 @@ img:not([alt]) {                        /* <---------------- ACTIVIDAD 7.1 */
     display: block;
     width: 50%;
     background-color: #FFA51A;
-    color: white;
+    color: black;
     font-weight: bold;
     border: none;
     border-radius: 20px;
