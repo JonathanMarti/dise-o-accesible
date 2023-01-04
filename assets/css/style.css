@@ -175,7 +175,7 @@ img:not([alt]) {                        /* <---------------- ACTIVIDAD 7.1 */
     border: 3px solid red;
 }
 
-#footer h4 {
+#footer .columnas-footer {
     text-align: center;
     font-size: 1.4em;
     letter-spacing: 1px;
