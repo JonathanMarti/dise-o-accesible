@@ -315,7 +315,7 @@ table td, th {
 
 table tr:first-child {
     background-color: #53C1B9 !important;
-    color: white;
+    color: black;
 }
 
 table tr:nth-child(odd){
